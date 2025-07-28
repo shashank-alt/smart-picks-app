@@ -6,9 +6,9 @@ import pickle
 
 # Load data
 movies = pickle.load(open('movie_list.pkl', 'rb'))
-similarity_movies = pickle.load(open('similarity.pkl', 'rb'))
+similarity_movies = pickle.load(open('models/similarity.pkl', 'rb'))
 shows = pickle.load(open('shows_list.pkl', 'rb'))
-similarity_shows = pickle.load(open('similarity1.pkl', 'rb'))
+similarity_shows = pickle.load(open('models/similarity1.pkl', 'rb'))
 
 # Recommender functions
 def recommend_movie(movie):
