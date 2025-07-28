@@ -1,3 +1,6 @@
+from download_datasets import download_datasets
+download_datasets()
+
 import streamlit as st# app.py
 import pickle
 
